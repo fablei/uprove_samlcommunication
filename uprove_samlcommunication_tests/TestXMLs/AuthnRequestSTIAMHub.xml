@@ -1,0 +1,13 @@
+﻿<saml2p:AuthnRequest AssertionConsumerServiceURL="http://localhost:14545/"
+                     AttributeConsumingServiceIndex="1"
+                     Destination="https://stiamhub:8443/Hub/SAML/SSO/Browser"
+                     ForceAuthn="false"
+                     ID="_307093a2-9df8-40f8-a1c5-97364a172052"
+                     IssueInstant="2016-10-19T15:08:28.178Z"
+                     ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                     ProviderName="HybridIssuer"
+                     Version="2.0"
+                     xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"
+                     >
+  <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">hybridissuer.ch</saml2:Issuer>
+</saml2p:AuthnRequest>

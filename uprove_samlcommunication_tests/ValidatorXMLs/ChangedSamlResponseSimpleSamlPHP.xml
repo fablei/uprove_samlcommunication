@@ -1,0 +1,95 @@
+﻿<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                ID="_870b53c9ea154e04440cd9f4e74f93b9986d5eb639"
+                Version="2.0"
+                IssueInstant="2016-10-26T16:25:58Z"
+                Destination="http://localhost:14545/"
+                InResponseTo="65464-6546-6454889-3313"
+                >
+  <saml:Issuer>simpleidp</saml:Issuer>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <ds:Reference URI="#_870b53c9ea154e04440cd9f4e74f93b9986d5eb639">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <ds:DigestValue>QT9WDd2pfHjl8IwWgUkLb3DpneM=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>g46WuCxJkg1iJX8siPtZPxU+Lbt1J1xIg8Vwvaxz+WeU0MkdmNeoM429QwAknJzyNGU5WP0KgRuIOwZ+wyQSFfQaDyqaMuIz4BFhJ+t5SDXRye+tSgA2ywCke5PXAxAlpiL51vYVYJmVlUTTed0hmHzgy19Z5i5ZMFkZcSkjIMzJC3H/LJ/KMp6/dGbEf0MtkIRDHg9jqbnsdd5dnBL9SmqGxqcKg1D1CN12JKyw5JF2FywTRKlpPOWXnRxKB3id7hMzu7qO12Y+uL0UeNRNtUZZDfgbTp8CRZeuMo95rpGQhutSOhpAeUWFAX9z5hxgvhgjmcawoeAnZbtC5CBPYw==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIDnTCCAoWgAwIBAgIJALnrEn8kMMpDMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAkNIMQ0wCwYDVQQIDARCaWVsMQwwCgYDVQQHDANCRkgxDzANBgNVBAoMBkJGSCBUSTEMMAoGA1UEAwwDQkZIMRowGAYJKoZIhvcNAQkBFgtpbmZvQGJmaC5jaDAeFw0xNjEwMTIwNzIxMTFaFw0yNjEwMTIwNzIxMTFaMGUxCzAJBgNVBAYTAkNIMQ0wCwYDVQQIDARCaWVsMQwwCgYDVQQHDANCRkgxDzANBgNVBAoMBkJGSCBUSTEMMAoGA1UEAwwDQkZIMRowGAYJKoZIhvcNAQkBFgtpbmZvQGJmaC5jaDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJg4f6Tkt7r7717Og57bpaTDP5DQD4kDYVvGGoBK81vP/FPUGvQNZls6qsc3wndAmwwVBPW3P0R1SNm47ibBSx+JwcsjtsowFNt4dL9qPo7+Ji788VUZ7BE3G0mDfg0ik4v7B3VS6vJAJnzEIZ2fZM7XQQjlpbbM+JVSTTcOd75f6zCz1g8MvI1g4g7EeY4qtD4bZowvRNUt9MkHwJBHxKxE/yK+KIne7grxeFI3nZ3idUskd9fRUDl4NHa+jHP9U+SJICM0836+kNAeqEyTsSE8lS8J9166wvXU/m6Uh1lji3s4f86gPllsw1sE/6EIG3aKoAM6lvpNYV2tAXvLKMCAwEAAaNQME4wHQYDVR0OBBYEFIVSZ4JCDoJ3bQBV2yamHDsPFkM9MB8GA1UdIwQYMBaAFIVSZ4JCDoJ3bQBV2yamHDsPFkM9MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIZFL4DYFhZRzlLX1Y9pA6YiDPSC5SvLNHnc7QXJ2hvLlfwsy7cR7micx+g6q4O+jHXo2wlN8cVn0TRYAME3Nu+nd/wJKFd4rw/MWI2CV8blNN27nyZHt3GDzYmBc0vT/l8YBfx2E/GUgeJk7ZY4CXUT0VHF5iB9gXuJ7ddHCK2PLXl5k+/duzPEyP1g4TkyHpEeovMX61hhuyg9gzPntBcAwUJ5mOkAA7h9/u95qex3pklg7+tS6JqWOBhccZaMjcIXv7mZT6K0J++f+2N6BHCb1ASN8L5+rxvGfbpO3exD7MDdwLJ+qeyqzHJ4loF4W4i0QqAmk88yh3+X0MbCSVg=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <samlp:Status>
+    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+  </samlp:Status>
+  <saml:Assertion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  ID="_4664f9132a2856b4e4097345136f5b1c059dda7344"
+                  Version="2.0"
+                  IssueInstant="2016-10-26T16:25:58Z"
+                    >
+    <saml:Issuer>simpleidp</saml:Issuer>
+    <saml:Subject>
+      <saml:NameID SPNameQualifier="hybridissuer.ch"
+                   Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+                         >5ab9b2c142aeebdd8950cb3d2b5974f02879e100</saml:NameID>
+      <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <saml:SubjectConfirmationData NotOnOrAfter="2016-10-26T16:30:58Z"
+                                      Recipient="http://localhost:14545/"
+                                      InResponseTo="65464-6546-6454889-3313"
+                                              />
+      </saml:SubjectConfirmation>
+    </saml:Subject>
+    <saml:Conditions NotBefore="2016-10-26T16:25:28Z"
+                     NotOnOrAfter="2016-10-26T16:30:58Z"
+                         >
+      <saml:AudienceRestriction>
+        <saml:Audience>hybridissuer.ch</saml:Audience>
+      </saml:AudienceRestriction>
+    </saml:Conditions>
+    <saml:AuthnStatement AuthnInstant="2016-10-26T15:38:17Z"
+                         SessionNotOnOrAfter="2016-10-26T23:38:17Z"
+                         SessionIndex="_3192d60514084ac2875221f9164810d0d4e87c68a7"
+                             >
+      <saml:AuthnContext>
+        <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml:AuthnContextClassRef>
+      </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement>
+      <saml:Attribute Name="uid"
+                      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+                            >
+        <saml:AttributeValue xsi:type="xs:string">student</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="surname"
+                      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+                            >
+        <saml:AttributeValue xsi:type="xs:string">Max</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="givenname"
+                      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+                            >
+        <saml:AttributeValue xsi:type="xs:string">Mustermann</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="affiliation"
+                      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+                            >
+        <saml:AttributeValue xsi:type="xs:string">member</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">student</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="dob"
+                      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+                            >
+        <saml:AttributeValue xsi:type="xs:string">12.05.1995</saml:AttributeValue>
+      </saml:Attribute>
+    </saml:AttributeStatement>
+  </saml:Assertion>
+</samlp:Response>

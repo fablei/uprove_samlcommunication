@@ -1,0 +1,14 @@
+﻿<saml2p:AuthnRequest AssertionConsumerServiceURL="http://localhost:14545/"
+                     Destination="https://stiamhub/simplesamlIdP/saml2/idp/SSOService.php"
+                     ForceAuthn="false"
+                     ID="65464-6546-6454889-3313"
+                     IssueInstant="2016-10-19T15:33:55.872Z"
+                     ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                     Version="2.0"
+                     xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol"
+                     >
+  <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">hybridissuer.ch</saml2:Issuer>
+  <saml2p:NameIDPolicy AllowCreate="true"
+                       Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent"
+                         />
+</saml2p:AuthnRequest>

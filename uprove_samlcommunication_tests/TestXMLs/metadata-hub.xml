@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_c9e14512-c306-4449-a3f8-db070b8b26b7" entityID="stiamhub.bfh.ch">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            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
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>
+            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
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">
+        <xenc:KeySize xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">256</xenc:KeySize>
+      </md:EncryptionMethod>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://stiamhub:8443/Hub/SAML/SLO/Soap"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://stiamhub:8443/Hub/SAML/SLO/Redirect" ResponseLocation="https://stiamhub:8443/Hub/SAML/SLO/Response"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://stiamhub:8443/Hub/SAML/SSO/Browser"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stiamhub:8443/Hub/SAML/SSO/Browser"/>
+  </md:IDPSSODescriptor>
+  
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">STIAM-Hub Provider</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">SuisseTrust-IAM Provider Corp</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://hub.gov.ch</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="administrative">
+    <md:GivenName>Hands</md:GivenName>
+    <md:SurName>Muster</md:SurName>
+    <md:EmailAddress>hansm@gov.ch</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
